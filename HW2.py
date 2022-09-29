@@ -49,7 +49,7 @@ print('_____________________________')
 
 text_print = input('Введите любой текст: ')
 
-for y in range(10):
+for y in range(3):
     print(text_print)
 
 
