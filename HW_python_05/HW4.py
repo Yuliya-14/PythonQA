@@ -1,4 +1,5 @@
 import my_calc
+import my_methods
 
 # 4.1. Напишите функцию square, принимающую 1 аргумент — сторону квадрата, и возвращающую 3 значения
 # (с помощью кортежа): периметр квадрата, площадь квадрата и диагональ квадрата.
@@ -52,6 +53,10 @@ res1 = my_calc.prod_it(45, 6)
 print(res1)
 
 print(my_calc.line)
+
+def test():
+    assert my_methods.div(10, 0) == 'Can`t divide by zero'
+
 print(my_calc.end)
 
 
