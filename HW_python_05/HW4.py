@@ -5,7 +5,7 @@ import my_calc
 
 def square(a=5):
     b = a * 4
-    c = a * a
+    c = a * 2
     d = a * a + a * a
     return b, c, d
 
@@ -32,7 +32,7 @@ print(my_calc.line)
 
 my_list = [20, -3, 15, 2, -1, -21]
 
-print(list(filter(lambda x: x > 0, my_list)))
+print(list(filter(lambda x: x >= 0, my_list)))
 print(my_calc.line)
 
 # 4.4. Используя лямбда выражение, получите результат перемножения значений в предыдущем списке
